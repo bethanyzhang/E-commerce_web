@@ -1,0 +1,114 @@
+.mainContent {
+  width: 100%;
+  padding: 10rem;
+}
+
+.mainContent .usertab {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+}
+.mainContent .usertab .user-tab-nav {
+  background: #f2f2f2;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 3.2rem;
+}
+.mainContent .usertab .user-tab-nav .usertabheader {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: -1px;
+}
+
+.mainContent .usertab .user-tab-nav .usertabheader li:first-child {
+  color: #4a4a4a;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+  list-style-type: none;
+  display: inline-block;
+}
+.mainContent .usertab .user-tab-nav .usertabheader li {
+  list-style-type: none;
+  color: #818181;
+  padding: 1.6rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+}
+.mainContent .usertab .usertab-main {
+  padding: 1.6rem;
+}
+.mainContent .usertab .usertab-main .container .user-banner {
+  height: 150px;
+  position: relative;
+}
+.mainContent .usertab .usertab-main .container .user-banner .background {
+  background: #e9e9e9;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+}
+.mainContent .usertab .usertab-main .container .user-banner .background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.mainContent .usertab .usertab-main .container .user-banner .user-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 1.6rem;
+  bottom: 30%;
+  position: relative;
+  background: #e1e1e1;
+  overflow: hidden;
+}
+
+.mainContent .usertab .usertab-main .container .user-banner .user-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mainContent .usertab .usertab-main .container .user-banner .useredit {
+  position: absolute;
+  right: 1.2rem;
+  bottom: -12%;
+  font-size: 1.2rem;
+  padding: 1.2rem 1.6rem;
+  background: #101010;
+  border: 1px solid #101010;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.mainContent .usertab .usertab-main .container .user-detail {
+  padding: 9.5rem 1.6rem 3.2rem;
+}
+.mainContent .usertab .usertab-main .container .user-detail h2 {
+  text-transform: capitalize;
+  color: #1a1a1a;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+.mainContent .usertab .usertab-main .container .user-detail span {
+  color: #4a4a4a;
+  font-size: 1.2rem;
+  position: relative;
+}
+.mainContent .usertab .usertab-main .container .user-detail h5 {
+  margin: 22px 0px;
+  font-size: 13px;
+  color: #1a1a1a;
+}

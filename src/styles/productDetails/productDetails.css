@@ -1,0 +1,154 @@
+.productDetails {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+}
+
+.productDetails .mainContainer .header .backtoshop {
+  background: none;
+  color: #000;
+  border: none;
+  margin: 18px 0px;
+  padding: 16px;
+}
+.productDetails .mainContainer .header .arrow {
+  float: left;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+.productDetails .mainContainer .productmodal {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+}
+
+.productDetails .mainContainer .productmodal .imgslider {
+  width: 150px;
+  height: inherit;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.productDetails .mainContainer .productmodal .imgslider .imagedetail img {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 5px;
+  position: relative;
+}
+.productDetails .mainContainer .productmodal .mid {
+  width: 40rem;
+  height: inherit;
+  flex-grow: 1;
+  position: relative;
+  background: #f8f8f8;
+}
+.productDetails .mainContainer .productmodal .mid img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.productDetails .mainContainer .productmodal .right {
+  width: 500px;
+  padding: 3.2rem;
+}
+
+.productDetails .mainContainer .productmodal .right span {
+  color: #818181;
+  font-size: 1.2rem;
+  position: relative;
+}
+.productDetails .mainContainer .productmodal .right h2 {
+  margin-bottom: 20px;
+}
+
+.productDetails .mainContainer .productmodal .right hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.productDetails .mainContainer .productmodal .right .widthsize {
+  margin-bottom: 20px;
+}
+.productDetails .mainContainer .productmodal .right .selecter {
+  margin-top: 20px;
+}
+
+.productDetails .mainContainer .productmodal .right .colorpics {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.productDetails .mainContainer .productmodal .right .colorpics .color {
+  margin-right: 20px;
+}
+
+.productDetails .mainContainer .productmodal .right h3 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.productDetails .mainContainer .productmodal .right button {
+  font-size: 1.2rem;
+  padding: 1.2rem 1.6rem;
+  background: #101010;
+  border: 1px solid #101010;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productDetails .mainContainer .rec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+.productDetails .recpro .pro .productlist {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2rem;
+}
+.productDetails .recpro .pro .productlist .box {
+  width: 100%;
+  max-height: 30rem;
+  border: 1px solid #e1e1e1;
+}
+.productDetails .recpro .pro .productlist .box img {
+  width: 343px;
+  height: 200px;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn 0.3s ease;
+  opacity: 1;
+  background-color: #f5f5f5;
+}
+
+.productDetails .recpro .pro .productlist .box .lower {
+  padding: 20px;
+}
+.productDetails .recpro .pro .productlist .box .lower h2 {
+  color: #1a1a1a;
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.productDetails .recpro .pro .productlist .box .lower span {
+  color: #818181;
+  font-size: 16px;
+  margin: 0px 0px 16px;
+  font-style: italic;
+}
